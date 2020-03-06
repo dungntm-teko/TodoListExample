@@ -7,26 +7,22 @@
 //
 
 import UIKit
-import RxSwift
 
 class SuperSwitcherViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    var presenter: SuperSwitcherPresenterProtocol?
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-//        if AppPreferences.instance.token == nil {
-//            scene?.switch(to: LoginScene())
-//        } else {
-//            scene?.switch(to: TodoScene())
-//        }
+        presenter?.doCheckAuthorization()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
+}
+
+extension SuperSwitcherViewController: SuperSwitcherViewProtocol {
+    
 }

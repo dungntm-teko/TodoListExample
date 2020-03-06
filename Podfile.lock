@@ -3,6 +3,9 @@ PODS:
   - RxCocoa (5.1.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxCoreBase/Basics (0.1.0):
+    - RxRelay
+    - RxSwift
   - RxCoreRepository/Basics (0.1.0):
     - RxSwift
   - RxCoreRepository/Remote (0.1.0):
@@ -21,6 +24,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.9.1)
   - RxCocoa
+  - RxCoreBase/Basics (from `https://github.com/dungntm58/iOSRxCore`)
   - RxCoreRepository/Basics (from `https://github.com/dungntm58/iOSRxCore`)
   - RxCoreRepository/Remote (from `https://github.com/dungntm58/iOSRxCore`)
   - RxRelay
@@ -39,10 +43,15 @@ SPEC REPOS:
     - Valet
 
 EXTERNAL SOURCES:
+  RxCoreBase:
+    :git: https://github.com/dungntm58/iOSRxCore
   RxCoreRepository:
     :git: https://github.com/dungntm58/iOSRxCore
 
 CHECKOUT OPTIONS:
+  RxCoreBase:
+    :commit: 610c29a023d5538483726cda63e6cd2e7afd79a9
+    :git: https://github.com/dungntm58/iOSRxCore
   RxCoreRepository:
     :commit: 610c29a023d5538483726cda63e6cd2e7afd79a9
     :git: https://github.com/dungntm58/iOSRxCore
@@ -50,6 +59,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
+  RxCoreBase: 7f1cf0d7eb5ab78ea6226af11879c51c38848f62
   RxCoreRepository: 08a43a9473f0a5ffd3d47692e8e36e6fe4a231bb
   RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
   RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
@@ -57,6 +67,6 @@ SPEC CHECKSUMS:
   Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
   Valet: 16d0537d70db79d9ba953b9060b5da4fb8004e51
 
-PODFILE CHECKSUM: 3c6c26ef2d9786c42c1f93666714742e0e0114fb
+PODFILE CHECKSUM: 33c14ee17cdfd3b899aa4a71591bc41c84241add
 
 COCOAPODS: 1.8.4

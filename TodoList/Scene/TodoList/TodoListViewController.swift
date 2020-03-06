@@ -11,6 +11,8 @@ import UIKit
 class TodoListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var presenter: TodoListPresenterProtocol?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,4 +20,8 @@ class TodoListViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+}
+
+extension TodoListViewController: TodoListViewProtocol {
+    
 }

@@ -8,13 +8,14 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var lbUsername: UITextField!
     @IBOutlet weak var lbPassword: UITextField!
     
-    lazy var disposeBag = DisposeBag()
+    var presenter: LoginPresenterProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +24,20 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onLogin(_ sender: UIButton) {
+        guard let userName = lbUsername.text, let password = lbPassword.text else { return }
         
+        presenter?.doLogin(username: userName, password: password)
     }
     
-    func onError(_ error: Error) {
+    @IBAction func onSingup(_ sender: UIButton) {
+        presenter?.didTapSignup()
+    }
+}
+
+extension LoginViewController: LoginViewProtocol {
+    func showError(_ error: Error) {
         let vc = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
         vc.addAction(UIAlertAction(title: "OK", style: .default))
         present(vc, animated: true)
     }
 }
-

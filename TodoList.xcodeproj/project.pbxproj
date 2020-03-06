@@ -31,6 +31,23 @@
 		0AF08BDD2412268300BC29A3 /* AuthDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BDC2412268300BC29A3 /* AuthDTO.swift */; };
 		0AF08BDF241226AA00BC29A3 /* AuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BDE241226AA00BC29A3 /* AuthEntity.swift */; };
 		0AF08BE1241226E600BC29A3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BE0241226E600BC29A3 /* Constant.swift */; };
+		0AF08BE724122F7A00BC29A3 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BE224122F7A00BC29A3 /* LoginPresenter.swift */; };
+		0AF08BE824122F7A00BC29A3 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BE324122F7A00BC29A3 /* LoginRouter.swift */; };
+		0AF08BE924122F7A00BC29A3 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BE424122F7A00BC29A3 /* LoginProtocols.swift */; };
+		0AF08BEA24122F7A00BC29A3 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BE524122F7A00BC29A3 /* LoginInteractor.swift */; };
+		0AF08BED241230B100BC29A3 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BEC241230B100BC29A3 /* Storyboard.swift */; };
+		0AF08BEF2412313600BC29A3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BEE2412313600BC29A3 /* Extension.swift */; };
+		0AF08BF524123A0900BC29A3 /* TodoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BF024123A0900BC29A3 /* TodoListPresenter.swift */; };
+		0AF08BF624123A0900BC29A3 /* TodoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BF124123A0900BC29A3 /* TodoListRouter.swift */; };
+		0AF08BF724123A0900BC29A3 /* TodoListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BF224123A0900BC29A3 /* TodoListProtocols.swift */; };
+		0AF08BF824123A0900BC29A3 /* TodoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BF324123A0900BC29A3 /* TodoListInteractor.swift */; };
+		0AF08BFF24123A9300BC29A3 /* SuperSwitcherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BFA24123A9300BC29A3 /* SuperSwitcherPresenter.swift */; };
+		0AF08C0024123A9300BC29A3 /* SuperSwitcherRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BFB24123A9300BC29A3 /* SuperSwitcherRouter.swift */; };
+		0AF08C0124123A9300BC29A3 /* SuperSwitcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08BFC24123A9300BC29A3 /* SuperSwitcherProtocols.swift */; };
+		0AF08C1524123FF600BC29A3 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08C1024123FF600BC29A3 /* SignupPresenter.swift */; };
+		0AF08C1624123FF600BC29A3 /* SignupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08C1124123FF600BC29A3 /* SignupRouter.swift */; };
+		0AF08C1724123FF600BC29A3 /* SignupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08C1224123FF600BC29A3 /* SignupProtocols.swift */; };
+		0AF08C1824123FF600BC29A3 /* SignupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF08C1324123FF600BC29A3 /* SignupInteractor.swift */; };
 		5DD8314796F0E05553E8ADB4 /* Pods_TodoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86B464DE7FC0277BB26DB2F /* Pods_TodoList.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +78,23 @@
 		0AF08BDC2412268300BC29A3 /* AuthDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDTO.swift; sourceTree = "<group>"; };
 		0AF08BDE241226AA00BC29A3 /* AuthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEntity.swift; sourceTree = "<group>"; };
 		0AF08BE0241226E600BC29A3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0AF08BE224122F7A00BC29A3 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		0AF08BE324122F7A00BC29A3 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		0AF08BE424122F7A00BC29A3 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		0AF08BE524122F7A00BC29A3 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		0AF08BEC241230B100BC29A3 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		0AF08BEE2412313600BC29A3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0AF08BF024123A0900BC29A3 /* TodoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListPresenter.swift; sourceTree = "<group>"; };
+		0AF08BF124123A0900BC29A3 /* TodoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRouter.swift; sourceTree = "<group>"; };
+		0AF08BF224123A0900BC29A3 /* TodoListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListProtocols.swift; sourceTree = "<group>"; };
+		0AF08BF324123A0900BC29A3 /* TodoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListInteractor.swift; sourceTree = "<group>"; };
+		0AF08BFA24123A9300BC29A3 /* SuperSwitcherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSwitcherPresenter.swift; sourceTree = "<group>"; };
+		0AF08BFB24123A9300BC29A3 /* SuperSwitcherRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSwitcherRouter.swift; sourceTree = "<group>"; };
+		0AF08BFC24123A9300BC29A3 /* SuperSwitcherProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSwitcherProtocols.swift; sourceTree = "<group>"; };
+		0AF08C1024123FF600BC29A3 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
+		0AF08C1124123FF600BC29A3 /* SignupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupRouter.swift; sourceTree = "<group>"; };
+		0AF08C1224123FF600BC29A3 /* SignupProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupProtocols.swift; sourceTree = "<group>"; };
+		0AF08C1324123FF600BC29A3 /* SignupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInteractor.swift; sourceTree = "<group>"; };
 		89D6859248BABF568678DAEF /* Pods-TodoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoList.debug.xcconfig"; path = "Target Support Files/Pods-TodoList/Pods-TodoList.debug.xcconfig"; sourceTree = "<group>"; };
 		B65DD1D14A49785B264CFFEE /* Pods-TodoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoList.release.xcconfig"; path = "Target Support Files/Pods-TodoList/Pods-TodoList.release.xcconfig"; sourceTree = "<group>"; };
 		F86B464DE7FC0277BB26DB2F /* Pods_TodoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +135,8 @@
 			children = (
 				0AF08BBD2412210300BC29A3 /* AppPreferences.swift */,
 				0AF08BE0241226E600BC29A3 /* Constant.swift */,
+				0AF08BEC241230B100BC29A3 /* Storyboard.swift */,
+				0AF08BEE2412313600BC29A3 /* Extension.swift */,
 				0AF08BD32412246900BC29A3 /* Request */,
 				0AF08BBF2412212D00BC29A3 /* Model */,
 				0AF08BB82412208100BC29A3 /* Scene */,
@@ -130,6 +166,10 @@
 			isa = PBXGroup;
 			children = (
 				0AF08BAE24121FAA00BC29A3 /* LoginViewController.swift */,
+				0AF08BE224122F7A00BC29A3 /* LoginPresenter.swift */,
+				0AF08BE324122F7A00BC29A3 /* LoginRouter.swift */,
+				0AF08BE424122F7A00BC29A3 /* LoginProtocols.swift */,
+				0AF08BE524122F7A00BC29A3 /* LoginInteractor.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -138,6 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				0AF08BB024121FB100BC29A3 /* SuperSwitcherViewController.swift */,
+				0AF08BFA24123A9300BC29A3 /* SuperSwitcherPresenter.swift */,
+				0AF08BFB24123A9300BC29A3 /* SuperSwitcherRouter.swift */,
+				0AF08BFC24123A9300BC29A3 /* SuperSwitcherProtocols.swift */,
 			);
 			path = Switch;
 			sourceTree = "<group>";
@@ -148,6 +191,10 @@
 				0AF08BCD2412227800BC29A3 /* TodoTableViewCell.swift */,
 				0AF08BCE2412227800BC29A3 /* TodoTableViewCell.xib */,
 				0AF08BB624121FDB00BC29A3 /* TodoListViewController.swift */,
+				0AF08BF024123A0900BC29A3 /* TodoListPresenter.swift */,
+				0AF08BF124123A0900BC29A3 /* TodoListRouter.swift */,
+				0AF08BF224123A0900BC29A3 /* TodoListProtocols.swift */,
+				0AF08BF324123A0900BC29A3 /* TodoListInteractor.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -194,6 +241,10 @@
 			isa = PBXGroup;
 			children = (
 				0AF08BCB2412221C00BC29A3 /* SignupViewController.swift */,
+				0AF08C1024123FF600BC29A3 /* SignupPresenter.swift */,
+				0AF08C1124123FF600BC29A3 /* SignupRouter.swift */,
+				0AF08C1224123FF600BC29A3 /* SignupProtocols.swift */,
+				0AF08C1324123FF600BC29A3 /* SignupInteractor.swift */,
 			);
 			path = Signup;
 			sourceTree = "<group>";
@@ -343,21 +394,38 @@
 			files = (
 				0AF08BAF24121FAA00BC29A3 /* LoginViewController.swift in Sources */,
 				0AF08BB724121FDB00BC29A3 /* TodoListViewController.swift in Sources */,
+				0AF08BE924122F7A00BC29A3 /* LoginProtocols.swift in Sources */,
+				0AF08BF524123A0900BC29A3 /* TodoListPresenter.swift in Sources */,
+				0AF08C1624123FF600BC29A3 /* SignupRouter.swift in Sources */,
 				0AF08BBE2412210300BC29A3 /* AppPreferences.swift in Sources */,
 				0AF08BC9241221CF00BC29A3 /* UserDTO.swift in Sources */,
+				0AF08C1824123FF600BC29A3 /* SignupInteractor.swift in Sources */,
 				0AF08BDD2412268300BC29A3 /* AuthDTO.swift in Sources */,
 				0AF08BC32412214000BC29A3 /* TodoEntity.swift in Sources */,
 				0AF08BDF241226AA00BC29A3 /* AuthEntity.swift in Sources */,
 				0AF08BB124121FB100BC29A3 /* SuperSwitcherViewController.swift in Sources */,
+				0AF08BF624123A0900BC29A3 /* TodoListRouter.swift in Sources */,
+				0AF08BEF2412313600BC29A3 /* Extension.swift in Sources */,
+				0AF08BE824122F7A00BC29A3 /* LoginRouter.swift in Sources */,
+				0AF08C0024123A9300BC29A3 /* SuperSwitcherRouter.swift in Sources */,
+				0AF08C1724123FF600BC29A3 /* SignupProtocols.swift in Sources */,
 				0AF08BCC2412221C00BC29A3 /* SignupViewController.swift in Sources */,
+				0AF08BE724122F7A00BC29A3 /* LoginPresenter.swift in Sources */,
+				0AF08C1524123FF600BC29A3 /* SignupPresenter.swift in Sources */,
 				0AF08BCF2412227800BC29A3 /* TodoTableViewCell.swift in Sources */,
+				0AF08BF824123A0900BC29A3 /* TodoListInteractor.swift in Sources */,
 				0AF08BD72412246900BC29A3 /* AuthRequest.swift in Sources */,
 				0AF08B9924120F1700BC29A3 /* AppDelegate.swift in Sources */,
 				0AF08BD82412246900BC29A3 /* TodoRequest.swift in Sources */,
 				0AF08BE1241226E600BC29A3 /* Constant.swift in Sources */,
+				0AF08C0124123A9300BC29A3 /* SuperSwitcherProtocols.swift in Sources */,
 				0AF08BDB2412261B00BC29A3 /* AppHTTPResponse.swift in Sources */,
 				0AF08B9B24120F1700BC29A3 /* SceneDelegate.swift in Sources */,
+				0AF08BF724123A0900BC29A3 /* TodoListProtocols.swift in Sources */,
 				0AF08BD92412246900BC29A3 /* AppModelHTTPRequest.swift in Sources */,
+				0AF08BEA24122F7A00BC29A3 /* LoginInteractor.swift in Sources */,
+				0AF08BED241230B100BC29A3 /* Storyboard.swift in Sources */,
+				0AF08BFF24123A9300BC29A3 /* SuperSwitcherPresenter.swift in Sources */,
 				0AF08BC7241221A500BC29A3 /* TodoDTO.swift in Sources */,
 				0AF08BB524121FCE00BC29A3 /* TodoDetailViewController.swift in Sources */,
 				0AF08BC22412214000BC29A3 /* UserEntity.swift in Sources */,
