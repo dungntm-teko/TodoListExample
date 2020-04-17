@@ -30,11 +30,11 @@ class LoginRouter: LoginWireframeProtocol {
     func moveToTodoList() {
         let vc = TodoListRouter.createModule()
         vc.modalPresentationStyle = .fullScreen
-        if let navigationController = viewController?.navigationController {
-            navigationController.pushViewController(vc, animated: true)
-        } else {
+//        if let navigationController = viewController?.navigationController {
+//            navigationController.pushViewController(vc, animated: true)
+//        } else {
             viewController?.present(vc, animated: true)
-        }
+//        }
     }
     
     func moveToSignup() {

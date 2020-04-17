@@ -27,6 +27,16 @@ class SignupRouter: SignupWireframeProtocol {
         return view
     }
     
+    func moveToTodoList() {
+            let vc = TodoListRouter.createModule()
+            vc.modalPresentationStyle = .fullScreen
+    //        if let navigationController = viewController?.navigationController {
+    //            navigationController.pushViewController(vc, animated: true)
+    //        } else {
+                viewController?.present(vc, animated: true)
+    //        }
+        }
+    
     func goBack() {
         viewController?.navigationController?.popViewController(animated: true)
     }

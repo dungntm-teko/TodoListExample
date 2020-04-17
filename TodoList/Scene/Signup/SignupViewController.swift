@@ -20,7 +20,9 @@ class SignupViewController: UIViewController {
     }
     
     @IBAction func onSignup(_ sender: UIButton) {
+        guard let userName = lbUsername.text, let password = lbPassword.text else { return }
         
+        presenter?.doSignup(username: userName, password: password)
     }
 }
 

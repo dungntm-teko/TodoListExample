@@ -17,19 +17,27 @@ class LoginInteractor: LoginInteractorProtocol {
     
     func requestLogin(username: String, password: String) {
         let params = [
-            "username": username,
+            "email": username,
             "password": password
         ]
-        let request = authRequest.login(params)
-            .compactMap { $0.result }
-            .do(onNext: {
-                AppPreferences.instance.token = $0.token
-            })
-            .map { _ in () }
-            .share()
-        
         guard let presenter = presenter else { return }
-        request.catchError { _ in .empty() }.bind(to: presenter.result).disposed(by: disposeBag)
-        request.subscribe(onError: presenter.error.accept).disposed(by: disposeBag)
+        authRequest.login(params)
+            .compactMap {
+                response in
+                response.result
+            }
+            .map { $0.token }
+            .do(onNext: saveToken(token:))
+            .map { _ in () }
+            .do(onError: presenter.error.accept)
+            .catchError { _ in Observable.empty() }
+            .subscribe()
+//            .bind(to: presenter.result)
+            .disposed(by: disposeBag)
+//        request.subscribe(onError: presenter.error.accept).disposed(by: disposeBag)
+    }
+    
+    func saveToken(token: String) {
+        AppPreferences.instance.token = token
     }
 }
